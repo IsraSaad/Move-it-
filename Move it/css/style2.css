@@ -1,0 +1,219 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  text-transform: capitalize
+ }
+ body{
+     background-color: gainsboro
+     }
+/* the header*/
+ ul{
+   list-style-type: none;
+   background-color:#0057a1 ;
+   height: 35px;
+    padding-top: 10px;
+    width: 1500px;
+    z-index: 1;
+    position: fixed
+    }
+.home{
+      color: white;
+      display: inline;
+      font-size: 20px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      margin-left: 50px;
+      padding: 8px;
+     }
+
+
+.home:hover{
+           background-color: red;
+           color: black;
+       }
+
+  .ha{
+      color: white;
+      text-decoration: none
+       }
+            
+ .contact{ 
+         color: white;
+         display: inline;
+         font-size: 20px;
+         margin-left: 609px;
+         padding: 8px;
+         border-right: 1px white solid
+        }
+.number{
+       color: white;
+       display: inline; 
+       font-size: 20px;
+       margin-left: 1px;
+       padding: 8px;
+       }
+
+ .number:hover{
+              background-color: green;
+              color: black;
+              padding-left: 30px
+              }
+.request{
+        position:absolute;
+        top: 0px;
+        right: 93px;
+        left: 1070px;
+        bottom: 100px;
+        height: 36px;
+        width: 189px;
+        color: white;
+        font-size: 18px;
+         border-left: 1px white solid;
+         padding-top: 10px;
+         padding-left: 5px;
+          z-index: 1px
+        
+            }
+            
+            
+.request2{ 
+          height: 36px;
+           width: 189px;
+           color: white;
+           font-size: 20px;
+           padding-top: 10px;
+           padding-left: 5px;
+            z-index: 1;
+           text-decoration: none;
+         }
+
+
+   .request:hover{
+                 background-color:#ee1922 ;
+                 }
+
+
+ /*the left div*/
+.div1{
+        margin-top: 50px;
+        margin-left: 80px;
+         height: 600px;
+         width: 500px;
+        border: 1px #c1c1c1 solid;
+        border-radius: 50px;
+        display: inline-block
+       }
+
+
+.tittle1{
+       margin-top: 20px;
+      margin-left: 20px;
+      font-size: 35px;
+      color: #0057a1
+      }
+
+
+label{
+    font-size: 35px;
+    margin-left: 30px;
+    color: #7ca8ce;
+    }
+
+input{
+     margin-left: 35px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px
+    
+    }
+
+
+select{
+     margin-left: 35px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 
+    }
+
+.apply{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4px
+      }
+
+/* right div */
+
+.div2{
+      height: 551px;
+      width: 500px;
+      border: 1px #c1c1c1 solid;
+      border-radius: 50px;
+      display: inline-block;
+      position: absolute;
+      top: 50px;
+      left: 650px
+    
+     }
+
+
+
+p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #0057a1 
+  }
+            
+
+
+.name{
+      font-size:25px; 
+     }
+
+.lastname{
+        margin-left: 25px;
+        font-size: 25px;
+        margin-top: 17px
+        }
+
+.namebox{
+        margin-top: 2px;
+        margin-left: 20px;
+        width: 104px
+         } 
+
+.lnbox{
+      margin-left: 10px;
+      width: 118px
+      }
+
+
+.pn{
+    width: 100px; 
+    margin-left: 20px
+    }
+
+
+.email{
+       width: 117px;
+       margin-left: 15px  
+      }
+
+
+.message{
+        width: 252px;
+         height: 84px;
+        }
+
+
+.bt{
+    width: 50px;
+    margin-left: 260px;
+    background-color: white
+}

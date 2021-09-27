@@ -1,0 +1,375 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ font-family: "Segoe UI",Arial,sans-serif;
+  text-transform: capitalize;
+  
+ }
+
+body{
+    background-color: gainsboro
+    }
+
+
+/* the begining of header*/ 
+header{
+    position: fixed;
+    z-index: 1
+      } 
+
+            
+.upper{/* this is for the upper light blue ul*/
+  background-color:#009add ;
+  height: 35px;
+  padding-top: 10px;
+  width: 1500px;
+  
+}
+
+li{/* the list of the light blue*/
+  display: inline;
+  color: white;
+   padding: 8px;
+   font-size: 20px;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+  }
+
+.moveit{/*first list class*/
+       margin-left: 121px; 
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+       }
+
+.it{ /*class of the span */
+   color: firebrick
+   }
+
+.contactus{ 
+           margin-left: 699px;
+           border-right: 1px white solid   
+          }
+
+.phone:hover{
+           background-color:green;
+           cursor: pointer
+          }
+
+
+
+/*this is for the lower dark blue ul*/
+.down{
+      list-style-type: none;
+      background-color:#0057a1 ;
+      height: 35px;
+      padding-top: 10px;
+      width: 1500px;
+    
+     }
+.lidown{
+    display: inline
+       }
+
+
+
+ /*request a move in li*/
+.request{
+         margin-left: 801px;
+        border: 2px white solid;
+        border-radius: 10px;
+        padding: 4px;
+        text-decoration: none;
+        color: white
+        }
+
+.request:hover{
+               background-color: #ac191f;
+               cursor: pointer
+              }
+.aboutus{
+         color: white;
+          margin-left: 125px;
+    text-decoration: none;
+    padding: 7px
+         }
+
+.aboutus:hover{
+               background-color: #ac191f;
+               padding: 7px
+               }
+
+
+.logo{
+        position: fixed;
+        top: 10px;
+        left: 50px;
+        height: 70px;
+        width: 70px
+      }
+/*the end of the header*/
+
+
+/*the begining of article*/ 
+article{
+    position: absolute;
+    top: 289px;
+    left: 377px;
+       }
+
+
+.one{ /*are you moving ?*/
+    font-size: 60px;
+    letter-spacing: -3PX;
+    }
+
+.two{ /*With MOVE IT*/
+    font-size: 40px;
+    letter-spacing: -1PX;
+    }
+
+.s1{/* the word MOVE*/
+    font-size: 55px;
+    color: white;
+   }
+
+.s2{ /*the word IT*/
+    font-size: 55px;
+    color: #ee1922;
+  }
+
+
+.three{
+    font-size: 32px;
+    text-transform: capitalize;
+      }
+
+
+/*this is the end of the article*/
+
+
+
+
+/* this is the left requesrt box*/
+.box{
+    height: 277px;
+    width: 321px;
+    background-color: rgba(95, 95, 85, 0.65);
+    position: absolute;
+    top:270px;
+    bottom: 100px;
+    right: 100px;
+    left: 20px;
+    border-radius:20px
+    
+    }
+
+.amove{/* Request a move in box */
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 29px;
+    padding-left: 44px;
+      }
+
+
+.from{/*I'm moving from...*/
+    margin-left: 40px;
+    margin-top: 29px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+    text-transform: capitalize
+
+
+     }
+
+.start{/*start botton*/
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 224px; 
+    text-transform: capitalize;
+    font-size: 20px;
+      }
+
+.start:hover{
+    background-color:#ac191f;
+    cursor: pointer
+            }
+/* the End of the box*/
+
+/* who are we*/
+.we{
+   font-size: 38px;
+    margin-left: 30px;
+    margin-top: 20px
+   }
+
+
+.intro{ 
+       margin-top: 5px;
+       margin-left: 50px;
+       font-size: 24px
+      }
+
+
+
+
+
+.d1{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 51px;
+    width: 300px;
+    display: inline-block;
+    
+        
+}
+
+
+.dis{
+   font-size: 20px  
+  }
+
+
+.d2{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 30px;
+    width: 300px;
+    display: inline-block;
+    
+        
+}
+
+
+
+.d3{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 30px;
+    display: inline-block;
+   
+        
+}
+
+
+
+
+
+footer{
+       width: 1300;
+       height: 300px;;
+    margin-top: 100px;
+    background-color: rgba(8, 8, 7, 0.65);
+    color: white;
+    
+      }
+   
+
+.end{/* the upper paragraph in footer*/
+    font-size: 21px;
+    padding-left: 10px
+    }
+
+.bigger{/*MOVE span*/
+   font-size: 30px
+        }
+
+.orange{/*IT word*/
+    color: #ee1922;
+    font-size: 30px
+}
+
+
+.fan{/* any question paragraph*/
+    margin-left: 510px;
+    bottom: left;
+    color: white;
+    font-size: 25px
+    
+    }
+
+/* input classes*/
+.name{
+    margin-top: 10px;
+     margin-left: 450px;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 10px;
+    width:100px
+}
+
+
+
+
+
+
+.email{
+       margin-top: 10px;
+     margin-left: 10px;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 10px;
+    width:150px
+      }
+
+
+.message{
+    margin-top: 10px;
+     margin-left: 450px;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 10px;
+    width:279px
+        }
+
+
+.send{
+    margin-top: 10px;
+     margin-left: 644px;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 10px;
+    width:100px
+}
+
+/* the end of the input*/
+
+
+
+/* social media */
+.find{
+    margin-left: 550px;
+    bottom: left;
+    color: white;
+    font-size: 24px
+     }
+
+.fb{
+    width: 50px;
+    margin-left: 510px
+   }
+
+
+
+.insta{
+ width: 50px;    
+}
+
+.twitter{
+     width: 45px;
+}
+
+
+
+
+
+
+ 
